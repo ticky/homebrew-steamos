@@ -1,4 +1,4 @@
-# Ticky Steamos
+# SteamOS formulae for Homebrew
 
 ## How do I install these formulae?
 
