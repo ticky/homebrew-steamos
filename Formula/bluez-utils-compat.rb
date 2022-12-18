@@ -5,6 +5,11 @@ class BluezUtilsCompat < Formula
   sha256 "39fea64b590c9492984a0c27a89fc203e1cdc74866086efb8f4698677ab2b574"
   license "GPL-2.0-or-later"
 
+  bottle do
+    root_url "https://github.com/ticky/homebrew-steamos/releases/download/bluez-utils-compat-5.66"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "101d1cd7bcc2623df79cdb85bb834a43c9a0e94a37a1e10a314978704bf90a0a"
+  end
+
   depends_on "docutils" => :build
   # NOTE: This is to work around Homebrew docutils formula bug homebrew/homebrew-core#118458
   depends_on "python@3.11" => :build
