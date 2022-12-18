@@ -35,6 +35,6 @@ class BluezUtilsCompat < Formula
   end
 
   test do
-    system "#{bin}/sdptool"
+    system "#{bin}/sdptool", "-h"
   end
 end
