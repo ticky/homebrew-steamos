@@ -11,6 +11,7 @@ class BluezUtilsCompat < Formula
   depends_on "alsa-lib"
   depends_on "dbus"
   depends_on "glib"
+  depends_on "json-c"
   depends_on "libical"
   depends_on :linux
   depends_on "systemd"
