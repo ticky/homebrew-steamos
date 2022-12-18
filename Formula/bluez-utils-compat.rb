@@ -3,7 +3,7 @@ class BluezUtilsCompat < Formula
   homepage "http://www.bluez.org/"
   url "http://www.kernel.org/pub/linux/bluetooth/bluez-5.66.tar.xz"
   sha256 "39fea64b590c9492984a0c27a89fc203e1cdc74866086efb8f4698677ab2b574"
-  license "GPL2"
+  license "GPL-2.0-or-later"
 
   depends_on "docutils" => :build
   # NOTE: This is to work around Homebrew docutils formula bug homebrew/homebrew-core#118458
