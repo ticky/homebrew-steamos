@@ -1,7 +1,7 @@
 class BluezUtilsCompat < Formula
   desc "Development and debugging utilities for the bluetooth protocol stack"
   homepage "http://www.bluez.org/"
-  url "http://www.kernel.org/pub/linux/bluetooth/bluez-5.66.tar.xz"
+  url "https://www.kernel.org/pub/linux/bluetooth/bluez-5.66.tar.xz"
   sha256 "39fea64b590c9492984a0c27a89fc203e1cdc74866086efb8f4698677ab2b574"
   license "GPL-2.0-or-later"
 
@@ -13,6 +13,7 @@ class BluezUtilsCompat < Formula
   depends_on "glib"
   depends_on "libical"
   depends_on :linux
+  depends_on "systemd"
 
   def install
     system "./configure",
