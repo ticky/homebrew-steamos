@@ -9,9 +9,9 @@ class Linuxconsole < Formula
   depends_on "sdl2"
 
   def install
-  	system "make", "SYSTEMD_SUPPORT=1"
-	cd "utils" do
-  	  bin.install "jstest"
+    system "make", "SYSTEMD_SUPPORT=1"
+    cd "utils" do
+      bin.install "jstest"
       bin.install "jscal"
       bin.install "jscal-restore"
       bin.install "jscal-store"
@@ -21,7 +21,7 @@ class Linuxconsole < Formula
       bin.install "ffmvforce"
       bin.install "ffset"
       bin.install "ffcfstress"
-	end
+    end
   end
 
   test do
